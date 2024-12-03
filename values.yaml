@@ -2,7 +2,7 @@ app:
   name: fastapi
   service: fastapi-service
   ingress: fastapi-ingress
-  port: 8080
+  port: 80
   targetPort: 8080
   host: fastapi-develop.rancher.local
   replicaCount: 1
