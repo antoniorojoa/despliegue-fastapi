@@ -9,3 +9,4 @@ app:
 image:
   repository: nexus.rancher.local/fastapi-develop
   tag: latest
+  replicaCount: 1
