@@ -1,0 +1,11 @@
+app:
+  name: fastapi
+  service: fastapi-service
+  ingress: fastapi-ingress
+  port: 80
+  targetPort: 8080
+  host: fastapi-develop.rancher.local
+
+image:
+  repository: nexus.rancher.local/fastapi-develop
+  tag: latest
