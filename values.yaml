@@ -5,8 +5,8 @@ app:
   port: 80
   targetPort: 8080
   host: fastapi-develop.rancher.local
+  replicaCount: 1
 
 image:
   repository: nexus.rancher.local/fastapi-develop
   tag: latest
-  replicaCount: 1
